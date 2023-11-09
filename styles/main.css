@@ -14,7 +14,6 @@ html{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #F3C6BD;
 }
     
 .header{
@@ -95,34 +94,22 @@ html{
 }
     
 .top-section{
-    padding-top: 39px;   
+    padding-top: 39px; 
+    background-color: #F3C6BD; 
 }
     
 .headline{
-    position: relative;
-    width: 1140px;
+    width: 1249px;
+    height: 456px;
+    left: 126px;
     margin: auto;
     margin-top: 84px;
     display: flex;
-    padding-bottom: 77px;
 }
 
 
 .headline__content{
-    position: absolute;
-    z-index: 1;
-}
-
-.headline__banner{
     background-image: url(/img/ouch.png);
-    position: absolute;
-    right: -105px;
-    top: 10px;
-    width: 796px;
-    height: 448px;
-    margin-left: auto;
-    left: 579px;
-    z-index: 1;
 }
 
 .headline__title{

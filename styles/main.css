@@ -95,8 +95,8 @@ html{
 }
     
 .top-section{
-    padding-top: 39px;
     background-color: #F3C6BD;
+    padding-top: 39px;
 }
     
 .headline{
@@ -189,11 +189,16 @@ html{
 
 .customers{
     width: 1140px;
-    height: 75px;
-    top: 995px;
-    left: 130px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 81px;
 }
 
 .customers-row{
     margin-top: 24px;
+    background-color: white;
+    display: flex;
 }
